@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posicionamentos (static, relative, absulete e fixed)</title>
+    <style>
+
+        body{
+            background: #0070c7;
+        }
+
+        #container{
+            border-radius: 15px;
+            background: #fff;
+            width: 800px;
+            margin: 10px auto;
+            padding: 10px;
+            position: relative;
+        }
+
+        h1{
+            position: static;
+        }
+
+        p{  
+            width: 300px;
+        }
+
+        .fixed{ /*baseado na janela do navegador*/
+            bottom: 0px;
+            margin: 0px;
+            right: 0px;
+            position: fixed;
+            border: 1px solid red;
+            background: #f2f2f2;
+        }
+
+        .absolute{ /*baseado no container*/
+            position: absolute;
+            border: 1px solid red;
+            top: 80px;
+            background: #f2f2f2;
+            right: 80px;
+        }
+
+        .relative{ /*baseado na posição anterior*/
+            border: 1px solid red;
+            position: relative;
+            /*top, right, botom, left */
+            top: 0px;
+            left: 350px;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="container">
+        <h1>Posicionamentos</h1>
+        <p> P1 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, alias esse iste suscipit eligendi quae dicta ipsam, qui totam similique at deserunt tenetur possimus, aliquam laboriosam nesciunt error. Dolore, velit.</p>
+
+        <p class="fixed"> P2 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, alias esse iste suscipit eligendi quae dicta ipsam, qui totam similique at deserunt tenetur possimus, aliquam laboriosam nesciunt error. Dolore, velit.</p>
+
+        <p> P3 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, alias esse iste suscipit eligendi quae dicta ipsam, qui totam similique at deserunt tenetur possimus, aliquam laboriosam nesciunt error. Dolore, velit.</p>
+
+        <p> P3 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, alias esse iste suscipit eligendi quae dicta ipsam, qui totam similique at deserunt tenetur possimus, aliquam laboriosam nesciunt error. Dolore, velit.</p>
+
+        <p> P3 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, alias esse iste suscipit eligendi quae dicta ipsam, qui totam similique at deserunt tenetur possimus, aliquam laboriosam nesciunt error. Dolore, velit.</p>
+
+        <p> P3 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, alias esse iste suscipit eligendi quae dicta ipsam, qui totam similique at deserunt tenetur possimus, aliquam laboriosam nesciunt error. Dolore, velit.</p>
+
+        <p> P3 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, alias esse iste suscipit eligendi quae dicta ipsam, qui totam similique at deserunt tenetur possimus, aliquam laboriosam nesciunt error. Dolore, velit.</p>
+
+        <p> P3 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, alias esse iste suscipit eligendi quae dicta ipsam, qui totam similique at deserunt tenetur possimus, aliquam laboriosam nesciunt error. Dolore, velit.</p>
+
+        <p> P3 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, alias esse iste suscipit eligendi quae dicta ipsam, qui totam similique at deserunt tenetur possimus, aliquam laboriosam nesciunt error. Dolore, velit.</p>
+
+        <p> P3 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, alias esse iste suscipit eligendi quae dicta ipsam, qui totam similique at deserunt tenetur possimus, aliquam laboriosam nesciunt error. Dolore, velit.</p>
+
+
+    </div>
+</body>
+</html>

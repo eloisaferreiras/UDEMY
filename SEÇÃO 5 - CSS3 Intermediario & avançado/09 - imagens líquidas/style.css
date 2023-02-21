@@ -1,0 +1,79 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #f2f2f2;
+}
+
+#container  { 
+    width: 85%; /*720px*/
+    margin: 0 auto;
+    background: #fff;
+    min-width: 720px; /* largura minima do layout */
+    max-width: 1280px; /* largura maxima do layout */
+  
+}
+#marca {
+    width: 100%;
+    height: 200px;
+    background: #225992 url(./imagens/cabecalho2.jpg) no-repeat center;
+    text-align: center;
+    line-height: 200px;
+}
+
+/*
+#imagem {
+    width: 90%;
+    overflow: hidden;
+    border: 1px solid red ;
+} */
+
+#conteudo {
+    width: 75%; /*520 -> 75*/
+    float: right;
+
+}
+
+#navegacao {
+    width: 23%; /*180 ->25*/
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #d1d1d1;
+}
+
+#conteudo-principal {
+    border: 1px solid red;
+    width: 63%; /*320px -> */
+    float: left;
+}
+
+img.img-noticia {
+    border: 1px solid red;
+    width: 94%;
+    max-width: 600px;
+    padding: 2%;
+
+}
+
+#conteudo-secundario {
+    width: 34%; /*180px -> 36*/
+    float: right;
+    background: #d1d1d1 ;
+}
+
+#conteudo-secundario h1,
+#conteudo-secundario h2,
+#conteudo-secundario h3,
+#conteudo-secundario p {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#navegacao ul {
+    list-style: none;
+}
+
+#rodape {
+    clear: both;
+    background: #463a3a;
+    padding: 5px;
+}
